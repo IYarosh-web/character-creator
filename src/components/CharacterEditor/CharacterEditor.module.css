@@ -5,6 +5,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {

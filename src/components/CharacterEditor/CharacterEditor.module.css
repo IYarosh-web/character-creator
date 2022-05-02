@@ -26,21 +26,11 @@
 }
 
 .characterWrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  right: 0;
-  top: 0;
-  max-width: 500px;
-}
-
-.characterWrapper svg {
-  display: block;
-  margin-left: auto;
-  position: sticky;
-  top: 128px;
-  bottom: 64px;
-  height: calc(100vh - 128px);
+  position: fixed;
+  top: 15%;
+  left: 60%;
+  bottom: 5%;
+  min-height: 500px;
 }
 
 .controlColumn {
